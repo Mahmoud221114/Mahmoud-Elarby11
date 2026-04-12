@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Mahmoud Elarby — Front-End Developer. Creating high-converting, modern web experiences." />
+  <meta name="keywords" content="Frontend Developer, JavaScript, React, SaaS UI, Landing Pages, Web Developer" />
+  <meta name="author" content="Mahmoud Elarby" />
+  <title>Mahmoud Elarby — Front-End Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress" id="scroll-progress"></div>
+
+  <!-- Background Effects -->
+  <div class="bg-effects">
+    <div class="glow glow-1"></div>
+    <div class="glow glow-2"></div>
+    <div class="grid-overlay"></div>
+  </div>
+
+  <!-- Navbar -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-icon">M</span>
+        <span class="logo-text">Mahmoud.ELarby</span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#who-am-i" class="nav-link">About</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#work" class="nav-link">Portfolio</a>
+        <a href="#contact" class="btn btn-primary">Let's Talk</a>
+      </nav>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="#who-am-i" class="mobile-link">About</a>
+      <a href="#services" class="mobile-link">Services</a>
+      <a href="#work" class="mobile-link">Portfolio</a>
+      <a href="#contact" class="btn btn-primary">Let's Talk</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-container">
+
+        <div class="hero-content form-text">
+          <div class="hero-badge reveal-up">
+            <span class="pulse-dot"></span> Available for new projects
+          </div>
+          <h1 class="hero-title reveal-up delay-1">
+            Hi, I'm Mahmoud — <br />
+            <span class="gradient-text">Front-End Developer</span>
+          </h1>
+          <p class="hero-subtitle reveal-up delay-2">
+            I build modern, responsive landing pages and dashboards that help businesses grow 🚀
+          </p>
+          <p class="hero-intro reveal-up delay-3">
+            I help startups and businesses turn their ideas into fast, clean, and high-converting websites.
+          </p>
+          <div class="hero-actions reveal-up delay-4">
+            <a href="#contact" class="btn btn-primary btn-lg">Hire Me</a>
+            <a href="#work" class="btn btn-secondary btn-lg">View My Work</a>
+          </div>
+        </div>
+
+        <div class="hero-image-wrapper reveal-scale delay-2">
+          <div class="profile-frame floating-anim">
+            <img src="image/img.jpg" alt="Mahmoud Elarby Profile Photo" class="profile-img" />
+            <div class="frame-decoration"></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- WHO AM I SECTION -->
+    <section id="who-am-i" class="section section-dark">
+      <div class="container">
+        <div class="who-am-i-grid">
+          <div class="who-visual reveal-right">
+            <div class="avatar-circle">
+              <img src="image/img.jpg" alt="Mahmoud Elarby" />
+            </div>
+            <div class="experience-badge glass-panel">
+              <span class="exp-years">4+</span>
+              <span class="exp-text">Years Building<br />Web Experiences</span>
+            </div>
+          </div>
+
+          <div class="who-content reveal-left">
+            <div class="section-head-left">
+              <h2 class="section-title">Who <span class="gradient-text">Am I?</span></h2>
+            </div>
+            <p class="personal-story">
+              I'm Mahmoud, a passionate Front-End Developer dedicated to crafting digital experiences that don't just
+              look beautiful, but perform flawlessly. My journey started with a fascination for design and grew into an
+              obsession with code.
+            </p>
+            <p class="personal-story">
+              <strong>I don't just write code; I solve problems.</strong> Whether it's a confusing user interface
+              causing high drop-off rates, or an outdated website hurting your brand's credibility—I bring modern,
+              responsive solutions to the table.
+            </p>
+            <p class="personal-story">
+              When working with me, you get more than a developer. You get a partner who values clean architecture,
+              transparent communication, and delivering products that elevate your business.
+            </p>
+            <div class="signature">Mahmoud Elarby</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-head reveal-up">
+          <h2 class="section-title">My <span class="gradient-text">Toolkit</span></h2>
+          <p class="section-desc">The modern technologies I use to build scalable web products.</p>
+        </div>
+
+        <div class="skills-card-grid">
+
+          <div class="skill-card reveal-up">
+            <div class="skill-icon-wrapper html-color">
+              <!-- HTML5 Icon -->
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm17.09 4.16l-3.235 14.624-3.376.96-3.386-.96-.217-2.61h2.247l.11 1.256 1.246.347 1.256-.347.16-1.745H5.824l-.45-4.887h8.182l.14-1.57H5.215L4.85 4.16h13.74z" />
+              </svg>
+            </div>
+            <h3>HTML5</h3>
+            <p>Semantic markup, accessibility, and modern structure.</p>
+          </div>
+
+          <div class="skill-card reveal-up delay-1">
+            <div class="skill-icon-wrapper css-color">
+              <!-- CSS3 Icon -->
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm17.09 4.16H4.85l.597 6.827H11.51l-.22 2.366-2.313.626-2.313-.626-.145-1.637H4.372l.27 3.25 4.336 1.205 4.335-1.205.474-5.263H7.4l-.2-2.28H15.82l-.2-2.28z" />
+              </svg>
+            </div>
+            <h3>CSS3</h3>
+            <p>Tailwind, modular styling, and buttery-smooth animations.</p>
+          </div>
+
+          <div class="skill-card reveal-up delay-2">
+            <div class="skill-icon-wrapper js-color">
+              <!-- JS Icon -->
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.006-2.873-.736-.345-1.554-.585-1.797-1.14-.09-.23-.057-.526.377-.782.43-.25 1.174-.32 1.984-.132.81.187 1.343.682 1.63 1.14.072.115.228.16.353.1L23.49 13.5c.123-.06.166-.21.1-.334-1.246-2.4-4.52-3.155-7.397-1.97-1.408.58-2.583 1.58-3.044 2.87-.464 1.306-.412 2.766.425 4.09.846 1.334 2.455 2.115 4.14 2.44 1.684.324 3.44-.127 4.908-1.29.986-.78 1.688-1.897 1.92-3.04zM5.534 14.542c-.524.22-.962.593-1.267 1.08-.304.484-.45 1.06-.407 1.637.042.573.284 1.106.685 1.512.398.403.923.655 1.498.718.577.062 1.16-.084 1.666-.417.505-.33.89-.806 1.096-1.353.483-1.268.46-2.735-.06-3.993l-3.21-10.02c-.066-.206-.296-.32-.507-.25L2.83 4.145c-.21.067-.327.29-.26.496l3.41 10.643c.092.288-.046.602-.32.698-.276.096-.58-.06-.672-.35L1.58 5.06c-.16-.5-.72-.777-1.22-.616C-.14 4.606-.41 5.166-.25 5.666l3.633 11.34c.642 2.015 2.378 3.525 4.444 3.87 2.067.346 4.154-.422 5.34-1.966 1.185-1.545 1.258-3.692.186-5.3-1.07-1.606-3.003-2.316-4.94-1.815z" />
+              </svg>
+            </div>
+            <h3>JavaScript</h3>
+            <p>ES6+, DOM manipulation, APIs, and complex logic.</p>
+          </div>
+
+          <div class="skill-card reveal-up delay-3">
+            <div class="skill-icon-wrapper react-color">
+              <!-- React Icon -->
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M23.01 12.014A11.026 11.026 0 0112 23.04 11.026 11.026 0 01.99 12.014 11.026 11.026 0 0112 .988a11.026 11.026 0 0111.01 11.026zM11.956 4.187c-2.32 0-4.526 1.346-6.052 3.608-.5.74-.906 1.544-1.218 2.378a9.4 9.4 0 019.576-2.22l.142-.423c1.642-4.887.893-6.938-2.448-3.343zM18.736 7.42c-1.39-2.07-3.364-3.233-5.46-3.233-.518 0-1.033.094-1.536.277 3.393-3.649 4.2-1.428 2.515 3.585l-.133.394a9.423 9.423 0 014.614.977zM7.218 8.847l-.146.435A9.418 9.418 0 0112 18.232c1.472-4.382-1.5-8.85-4.782-9.385zm6.34-1.353l.146-.436A9.418 9.418 0 0112 16.012c-1.47 4.382 1.5 8.85 4.782 9.385zm-4.49 1.947c-2.01 1.055-3.054 3.01-2.9 5.2.148 2.11 1.488 4.093 3.61 5.378-1.53-.16-2.585-.826-3.155-1.95-1.554-3.064-.176-5.74 2.445-8.628z" />
+              </svg>
+            </div>
+            <h3>React</h3>
+            <p>Component-based architecture, state management, and SPAs.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY CHOOSE ME SECTION -->
+    <section id="why-me" class="section section-dark">
+      <div class="container">
+        <div class="section-head reveal-up">
+          <h2 class="section-title">The <span class="gradient-text">Trust Factor</span></h2>
+          <p class="section-desc">Why working with me is a guaranteed upgrade for your online presence.</p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card glass-panel reveal-up">
+            <div class="feat-icon">
+              <!-- Inline SVG -->
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+              </svg>
+            </div>
+            <h3>Clean Code</h3>
+            <p>Maintainable, scalable, and bug-free architecture built with modern standard methodologies.</p>
+          </div>
+
+          <div class="feature-card glass-panel reveal-up delay-1">
+            <div class="feat-icon">
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+              </svg>
+            </div>
+            <h3>Fast Delivery</h3>
+            <p>Respecting your project deadlines while communicating transparently throughout the entire process.</p>
+          </div>
+
+          <div class="feature-card glass-panel reveal-up delay-2">
+            <div class="feat-icon">
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+              </svg>
+            </div>
+            <h3>Responsive Design</h3>
+            <p>Flawless user experience across all devices, from massive 4k desktop monitors to tiny mobile phones.</p>
+          </div>
+
+          <div class="feature-card glass-panel reveal-up delay-3">
+            <div class="feat-icon">
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+              </svg>
+            </div>
+            <h3>Modern UI</h3>
+            <p>Premium dark modes, subtle butter-smooth animations, and conversion-focused user interfaces.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-head reveal-up">
+          <h2 class="section-title">My <span class="gradient-text">Services</span></h2>
+          <p class="section-desc">Specialized offers tailored to solve your business needs.</p>
+        </div>
+
+        <div class="services-wrapper">
+
+          <div class="service-box glass-panel reveal-up">
+            <div class="svc-icon">
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+              </svg>
+            </div>
+            <div class="svc-content">
+              <h3>Landing Page Development</h3>
+              <p>High-converting landing pages built from scratch. Designed to turn clicks into clients with strategic
+                layout and lightning-fast load times.</p>
+            </div>
+          </div>
+
+          <div class="service-box glass-panel reveal-up delay-1">
+            <div class="svc-icon">
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+            </div>
+            <div class="svc-content">
+              <h3>Dashboard UI Design</h3>
+              <p>Clean, intuitive, and data-driven admin panels for SaaS applications. Complex data simplified into
+                beautiful interfaces.</p>
+            </div>
+          </div>
+
+          <div class="service-box glass-panel reveal-up delay-2">
+            <div class="svc-icon">
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+              </svg>
+            </div>
+            <div class="svc-content">
+              <h3>Responsive Website Design</h3>
+              <p>Upgrade your existing outdated site into a modern powerhouse. Enhanced aesthetics, perfect mobile
+                scaling, and improved SEO.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS / CASE STUDIES SECTION -->
+    <section id="work" class="section section-dark">
+      <div class="container">
+        <div class="section-head reveal-up">
+          <h2 class="section-title">My <span class="gradient-text">projects</span></h2>
+          <p class="section-desc">Deep dives into recent projects and how they solved real-world problems.</p>
+        </div>
+
+        <div class="case-studies-container">
+
+          <!-- CASE STUDY 1 -->
+          <article class="case-study reveal-up">
+            <div class="cs-visual group">
+              <div class="cs-image-wrapper">
+                <img src="./image/card1.png" alt="SaaS Landing Page" class="cs-img"
+                  onerror="this.src='https://placehold.co/600x400/1e1e24/00e5b0?text=SaaS+Project'" />
+                <div class="cs-overlay flex-center">
+                  <a href="#" class="btn btn-primary">View Live Demo</a>
+                </div>
+              </div>
+            </div>
+            <div class="cs-content">
+              <div class="cs-badge">Web Application • Finance</div>
+              <h3 class="cs-title">portfolio website</h3>
+              <p class="cs-short-desc">This is my portfolio website that i built to showcase my skills and projects.</p>
+
+              <!-- <div class="cs-details">
+                <div class="cs-detail-block">
+                  <h4>The Problem</h4>
+                  <p>The client had a powerful tool but a confusing, low-converting website that failed to communicate
+                    value clearly.</p>
+                </div>
+                <div class="cs-detail-block">
+                  <h4>The Solution</h4>
+                  <p>Developed a fast, modern UI with clear feature sections, scroll animations, and an intuitive
+                    pricing table.</p>
+                </div>
+                <div class="cs-detail-block">
+                  <h4>The Result</h4>
+                  <p>Increased trial signups by 45% and reduced bounce rate by focusing on performance and UX.</p>
+                </div>
+              </div> -->
+
+              <div class="cs-stack">
+                <span>javascript</span><span>CSS</span><span>HTML</span>
+              </div>
+
+              <div class="cs-actions">
+                <a href="https://mahmoud221114.github.io/My-Portfolio/indx.html" class="btn btn-primary">Live Demo <svg viewBox="0 0 20 20" fill="none" class="btn-icon">
+                    <path d="M10 3H5a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-5M13 3h4v4M10 10l7-7"
+                      stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg></a>
+                <a href="https://github.com/mahmoud221114/My-Portfolio" class="btn btn-secondary">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- CASE STUDY 2 -->
+          <article class="case-study reverse reveal-up">
+            <div class="cs-visual group">
+              <div class="cs-image-wrapper">
+                <img src="./image/card6.png" alt="Law Firm Website" class="cs-img"
+                  onerror="this.src='https://placehold.co/600x400/1e1e24/38bdf8?text=Corporate+Project'" />
+                <div class="cs-overlay flex-center">
+                  <a href="#" class="btn btn-primary">View Live Demo</a>
+                </div>
+              </div>
+            </div>
+            <div class="cs-content">
+              <div class="cs-badge">Corporate • Legal</div>
+              <h3 class="cs-title">Corporate Law Firm Website</h3>
+              <p class="cs-short-desc">A professional multi-page website establishing trust and authority for an elite
+                law firm.</p>
+
+              <!-- <div class="cs-details">
+                <div class="cs-detail-block">
+                  <h4>The Problem</h4>
+                  <p>An outdated WordPress site that loaded slowly and didn't reflect the premium nature of the firm's
+                    services.</p>
+                </div>
+                <div class="cs-detail-block">
+                  <h4>The Solution</h4>
+                  <p>Built a custom, responsive HTML/CSS architecture emphasizing typography, accessible navigation, and
+                    high-performance loading.</p>
+                </div>
+                <div class="cs-detail-block">
+                  <h4>The Result</h4>
+                  <p>A 3x improvement in page load speed and a significant increase in contact form submissions.</p>
+                </div>
+              </div> -->
+
+              <div class="cs-stack">
+                <span>HTML5</span><span>CSS</span><span>JavaScript</span>
+              </div>
+
+              <div class="cs-actions">
+                <a href="https://mahmoud221114.github.io/lawfrim/" class="btn btn-primary">Live Demo <svg viewBox="0 0 20 20" fill="none" class="btn-icon">
+                    <path d="M10 3H5a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-5M13 3h4v4M10 10l7-7"
+                      stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg></a>
+                <a href="https://github.com/mahmoud221114/lawfrim" class="btn btn-secondary">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- CASE STUDY 3 -->
+          <article class="case-study reveal-up">
+            <div class="cs-visual group">
+              <div class="cs-image-wrapper">
+                <img src="./image/card4.png" alt="Admin Dashboard UI" class="cs-img"
+                  onerror="this.src='https://placehold.co/600x400/1e1e24/f43f5e?text=Dashboard+Project'" />
+                <div class="cs-overlay flex-center">
+                  <a href="#" class="btn btn-primary">View Live Demo</a>
+                </div>
+              </div>
+            </div>
+            <div class="cs-content">
+              <div class="cs-badge">Web App • E-Commerce</div>
+              <h3 class="cs-title">Admin Dashboard UI</h3>
+              <p class="cs-short-desc">A comprehensive dashboard interface for an e-commerce platform managing inventory
+                and user metrics.</p>
+
+              <!-- <div class="cs-details">
+                <div class="cs-detail-block">
+                  <h4>The Problem</h4>
+                  <p>Store owners were overwhelmed by raw data and a cluttered settings interface, leading to
+                    operational errors.</p>
+                </div>
+                <div class="cs-detail-block">
+                  <h4>The Solution</h4>
+                  <p>Redesigned the layout utilizing a modular component system, clear data visualization, and an
+                    accessible side navigation panel.</p>
+                </div>
+                <div class="cs-detail-block">
+                  <h4>The Result</h4>
+                  <p>Streamlined workflow for users, reducing average task completion time by 30%.</p>
+                </div>
+              </div> -->
+
+              <div class="cs-stack">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+
+              <div class="cs-actions">
+                <a href="https://mahmoud221114.github.io/online-courese/home.html" class="btn btn-primary">Live Demo <svg viewBox="0 0 20 20" fill="none" class="btn-icon">
+                    <path d="M10 3H5a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-5M13 3h4v4M10 10l7-7"
+                      stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg></a>
+                <a href="https://github.com/mahmoud221114/online-courese" class="btn btn-secondary">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal-up">
+          <h2 class="section-title">Client <span class="gradient-text">Feedback</span></h2>
+          <p class="section-desc">Don't just take my word for it. Here's what my clients say.</p>
+        </div>
+
+        <div class="testimonials-grid">
+
+          <div class="testimonial-card glass-panel reveal-up">
+            <div class="quote-icon">"</div>
+            <p class="test-text">"Mahmoud completely transformed our landing page. The new design not only looks
+              stunning but it has tangibly increased our conversion rate in just the first month. He writes very clean
+              code and was always responsive."</p>
+            <div class="test-author">
+              <img src="https://placehold.co/100x100/2a2a30/e2e8f0?text=MJ" alt="Mark Johnson" class="author-avatar" />
+              <div class="author-info">
+                <h4>Mark Johnson</h4>
+                <p>Founder, SaaSify</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card glass-panel reveal-up delay-1">
+            <div class="quote-icon">"</div>
+            <p class="test-text">"Hiring Mahmoud was the best decision for our rebranding project. He pays incredible
+              attention to detail and delivered a blazing fast website that looks fantastic on desktop and mobile alike.
+              Highly recommended."</p>
+            <div class="test-author">
+              <img src="https://placehold.co/100x100/2a2a30/e2e8f0?text=SR" alt="Sarah Rogers" class="author-avatar" />
+              <div class="author-info">
+                <h4>Sarah Rogers</h4>
+                <p>Marketing Director</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section section-dark">
+      <div class="container">
+        <div class="contact-card glass-panel reveal-scale">
+          <div class="contact-content">
+            <h2 class="contact-title">Ready to launch your next big idea?</h2>
+            <p class="contact-desc">Let's work together to build a premium digital experience that elevates your brand
+              and drives real growth.</p>
+
+            <div class="contact-links">
+              <!-- Email -->
+              <a href="mailto:mahmoud112233446547@gmail.com" class="contact-link-item">
+                <svg fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                </svg>
+                mahmoud112233446547@gmail.com
+              </a>
+              <!-- WhatsApp (Placeholder link, you can update it) -->
+              <a href="https://wa.me/201013173281" target="_blank" class="contact-link-item">
+                <svg fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                </svg>
+                WhatsApp
+              </a>
+              <!-- GitHub -->
+              <a href="https://github.com/Mahmoud221114" target="_blank" class="contact-link-item">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836a9.59 9.59 0 012.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.933.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z" />
+                </svg>
+                GitHub Profile
+              </a>
+              <!-- facebook -->
+              <a href="https://www.facebook.com/mahmoud.m.elarby.2025" target="_blank" class="contact-link-item">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836a9.59 9.59 0 012.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.933.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z" />
+                </svg>
+                Facebook Profile
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-form-container">
+            <h3 class="form-title">Send a Message</h3>
+            <form id="contact-form" class="custom-form">
+              <div class="form-group">
+                <input type="text" id="name" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" id="email" placeholder="Your Email" required>
+              </div>
+              <div class="form-group">
+                <textarea id="message" rows="4" placeholder="Tell me about your project" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary w-full">Let's work together</button>
+              <div id="form-status" class="form-status"></div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <span class="logo-icon">M</span>
+        <span class="logo-text">Mahmoud.ELarby</span>
+      </div>
+      <p class="footer-copy">&copy; <span id="year"></span> Mahmoud Elarby. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
